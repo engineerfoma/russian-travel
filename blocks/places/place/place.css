@@ -1,6 +1,6 @@
 .place {
     display: grid;
-    grid-template-areas: 
+    grid-template-areas:
     "title link"
     "img text";
     row-gap: 48px;
@@ -11,7 +11,7 @@
 }
 
 .place:last-child {
-    margin-bottom: 0;;
+    margin-bottom: 0;
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {

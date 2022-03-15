@@ -1,5 +1,5 @@
 @font-face {
-    src: 
+    src:
     url(../../fonts/Inter/Inter-ExtraBold.woff2),
     url(../../fonts/Inter/Inter-ExtraBold.woff);
     font-family: 'Inter';
@@ -7,15 +7,15 @@
 }
 
 @font-face {
-    src: 
+    src:
     url(../../fonts/Inter/Inter-Bold.woff2),
-    url(../../fonts/Inter/Inter-Bold.woff);;
+    url(../../fonts/Inter/Inter-Bold.woff);
     font-family: 'Inter';
     font-weight: 800;
 }
 
 @font-face {
-    src: 
+    src:
     url(../../fonts/Inter/Inter-Medium.woff2),
     url(../../fonts/Inter/Inter-Medium.woff);
     font-family: 'Inter';
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-    src: 
+    src:
     url(../../fonts/Inter/Inter-Regular.woff2),
     url(../../fonts/Inter/Inter-Regular.woff);
     font-family: 'Inter-regular';
@@ -31,7 +31,7 @@
 }
 
 @font-face {
-    src: 
+    src:
     url(../../fonts/Inter/Inter-Light.woff2),
     url(../../fonts/Inter/Inter-Light.woff);
     font-family: 'Inter';
@@ -39,7 +39,7 @@
 }
 
 @font-face {
-    src: 
+    src:
     url(../../fonts/Inter/Inter-Black.woff2),
     url(../../fonts/Inter/Inter-Black.woff);
     font-family: 'Inter-black';
