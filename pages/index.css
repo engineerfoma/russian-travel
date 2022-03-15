@@ -4,7 +4,7 @@
 @import url(../blocks/hover/hover.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__lang//header__lang.css);
-@import url(../blocks/header/__lang/__active/header__lang_active.css);
+@import url(../blocks/header/__lang/_active/header__lang_active.css);
 @import url(../blocks/header/__lang/_link/header__lang_link-en.css);
 @import url(../blocks/header/__lang/_link/header__lang_link-ru.css);
 @import url(../blocks/header/__logo/header__logo.css);
