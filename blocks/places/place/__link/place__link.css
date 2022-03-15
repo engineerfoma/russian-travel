@@ -1,0 +1,37 @@
+.place__link {
+    color: #fff;
+    grid-area: link;
+    font-family: 'Inter-regular' , Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.22;
+    font-weight: 400;
+    width: max-content;
+    text-decoration: none;
+    border-bottom: 1.5px solid #fff;
+    position: relative;
+    align-self: end;
+}
+
+.place__link::before {
+    content: 'URL';
+    font-family: 'Inter-regular' , Arial, sans-serif;
+    letter-spacing: 2px;
+    font-size: 12px;
+    line-height: 1.7;
+    position: absolute;
+    bottom: 30px;
+    color: #aaa;
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    .place__link::before {
+        line-height: 1;
+        bottom: 32px;
+    }
+}
+
+@media (max-width: 767px) {
+    .place__link {
+        margin: 20px 16px 0;
+    }
+}

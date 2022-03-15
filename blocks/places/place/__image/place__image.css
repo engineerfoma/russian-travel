@@ -1,0 +1,29 @@
+.place__image {
+    max-width: 460px;
+    width: 100%;
+    grid-area: img;
+}
+
+@media (min-width: 900px) and (max-width: 1023px) {
+    .place__image {
+        width: 430px;
+    }
+}
+
+@media (min-width: 824px) and (max-width: 899px) {
+    .place__image {
+        width: 370px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 823px) {
+    .place__image {
+        width: 340px;
+    }
+}
+
+@media (max-width: 767px) {
+    .place__image {
+    margin: 0 auto;    
+    }
+}

@@ -1,0 +1,24 @@
+.header__lang_link-ru {
+    position: absolute;
+    top: 18px;
+    right: 47px;
+    min-width: 30px;
+    min-height: 28px;
+    color: #fff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.17;
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .header__lang_link-ru {
+        min-width: 22px;
+        min-height: 20px;
+        top: 14px;
+        right: 40px;
+        font-size: 18px;
+        line-height: 1.11;
+    }
+} 

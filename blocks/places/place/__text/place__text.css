@@ -1,0 +1,13 @@
+.place__text {
+    grid-area: text;
+    font-family: 'Inter-regular' , Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.63;
+    font-weight: 400;
+}
+
+@media (max-width: 767px) {
+    .place__text {
+        margin: 0 16px 14px;
+    }
+}
