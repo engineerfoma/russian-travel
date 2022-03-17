@@ -1,8 +1,9 @@
 .intro__list_text {
     color: #fff;
     text-align: start;
-    font-family: 'Inter-regular', Arial, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-size: 12px;
     line-height: 1.5;
     font-weight: 700;
+    margin: 0;
 }

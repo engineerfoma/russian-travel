@@ -14,27 +14,30 @@
     .footer::after {
         content: '© 2022. Фоменко Николай';
         color: #fff;
-        font-family: 'Inter-regular' , Arial, sans-serif;
+        font-family: 'Inter' , Arial, sans-serif;
         font-size: 14px;
         line-height: 1.14;
         font-weight: 400;
         position: absolute;
+        max-width: 250px;
+        line-height: 1.14;
         right: 0;
         top: 2px;
     }
 }
-
-
+/* Обратите, пожалуйста, внимание на следующий факт: если я уберу повторяющиеся 
+свойства для footer::after (max-width: 767px), в этом случае
+страница совсем его не отобразит или не унаследует другие свойства, что находятся
+ выше, для другого разрешения. */
 @media (max-width: 767px) {
     .footer::after {
         content: '© 2022. Фоменко Николай';
         color: #fff;
-        font-family: 'Inter-regular' , Arial, sans-serif;
-        font-size: 14px;
+        font-family: 'Inter' , Arial, sans-serif;
         line-height: 1;
-        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.14;
         position: absolute;
-        max-width: 250px;
         bottom: 0;
         left: 0;
     }
@@ -43,7 +46,7 @@
 @media (min-width: 768px) and (max-width: 1023px) {
     .footer {
         margin: 0 24px 24px;
-        max-width: 720px;
+        max-width: 100%;
     }   
 }
 
